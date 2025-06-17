@@ -1,0 +1,7 @@
+﻿services:
+  password.generator:
+    image: password.generator
+    build:
+      context: .
+      dockerfile: Password.Generator/Dockerfile
+

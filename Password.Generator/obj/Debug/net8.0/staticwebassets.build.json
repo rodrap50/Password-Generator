@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QeIsiAIoo0uNzQvzPvoGX6g8SzBIT/6ncPyUd9PuV9k=",
+  "Source": "Password.Generator",
+  "BasePath": "_content/Password.Generator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
