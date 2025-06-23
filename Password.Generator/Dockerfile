@@ -7,7 +7,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Password.Generator.csproj", "Password.Generator/"]
+COPY ["Password.Generator/Password.Generator.csproj", "Password.Generator/"]
 RUN dotnet restore "Password.Generator/Password.Generator.csproj"
 COPY . .
 WORKDIR "/src/Password.Generator"
